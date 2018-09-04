@@ -14,7 +14,7 @@ nav {
   top: 18px;
  
   /* text-align: center; */
-  background: rebeccapurple;
+  background: #707070;
   border-radius: 5px;
 }
 
@@ -28,9 +28,9 @@ nav ul {
 nav ul li {
     padding-top: 8px;
     display: inline-block;
-    width: 93px;
+    width: 98px;
     margin: auto auto;  
-    border: 1px solid white; 
+    height: 100%;
 }
 
 nav ul li a {
@@ -40,14 +40,18 @@ nav ul li a {
 
 nav div {
     display: inline-block;
-    width:10%;
+    width: 16%;
     height: 100%;
     padding: 8px 13px;
 }
 
 nav div input {
     border-radius: 5px;
-    width: 80px;
+    width: 95%;
+    border: none;
+    background: #a5a1a1ed;
+    color: #fff;
+    box-shadow: inset 0px 10px 30px 0px rgb(85, 82, 85);
 }
 
 
