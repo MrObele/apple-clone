@@ -75,9 +75,13 @@ nav div input {
 }
 
 .banner-text{
+    max-width: 980px;
     text-align: center;
-    margin-top: 90px;
+    margin: 0 auto;
+    margin-top: 130px;
+    
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 .banner-text h2{
    font-size: 50px;
@@ -85,5 +89,40 @@ nav div input {
 }
 .banner-text p{
     font-size: 25px;
+    padding: 30px 143px;
 }
 
+.banner-text a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.banner-text a:hover{
+    text-decoration: underline;
+}
+
+.fa-play-circle {
+    font-size: 30px;
+    vertical-align: text-bottom;
+}
+
+
+section.image-roll {
+    display: flex;
+    margin-top: 2px;
+    width: 100%;
+}
+
+section.image-roll img {
+
+width: 25%;
+}
+
+footer {
+    max-width: 980px;
+    margin: 0 auto;
+    background: black;
+    height: 10px;
+}
