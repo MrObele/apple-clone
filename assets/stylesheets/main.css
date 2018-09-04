@@ -6,19 +6,22 @@
     position: relative;
 }
 
-nav {
+nav {font-size: 0;
   position: relative;
   max-width: 980px;
   height: 36px;
   margin: 0 auto;
   top: 18px;
  
-  /* text-align: center; */
+
   background: #707070;
   border-radius: 5px;
+
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
 nav ul {
+    font-size: 16px;
     width: 83%;
     display: inline-block;
     height: 100%;
@@ -28,9 +31,16 @@ nav ul {
 nav ul li {
     padding-top: 8px;
     display: inline-block;
-    width: 98px;
+    width: 101.6px;
     margin: auto auto;  
     height: 100%;
+    border-right: 1px solid #3C3C3C;
+}
+
+nav ul li:hover {
+
+background:#3C3C3C;
+
 }
 
 nav ul li a {
