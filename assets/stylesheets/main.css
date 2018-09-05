@@ -121,7 +121,7 @@ width: 25%;
 }
 
 footer {
-    max-width: 980px;
+    max-width: 993px;
     margin: 0 auto;
     height: auto;
     margin-bottom: 20px;
@@ -142,13 +142,13 @@ footer div{
     
 }
 footer .contact p a{
-    font-size: 0.7em;
+    font-size: 11px;
     line-height: 1.2;
     text-decoration: none;
     color: #08c;
     display: inline-block;
     float: none;
-    margin-left: .6em;
+    
     
 }
 
@@ -164,6 +164,23 @@ footer .contact p a{
     border-right: 1px solid #ccc;
  }
  footer .site-map a img{
-     width: 2%;
+     width: 100%;
+     border: none;
  }
 
+ footer .site-map a:hover, footer .contact p a:hover {
+     text-decoration: underline;
+ }
+
+ .terms-of-use-link {
+     border-right: 1px solid #ccc;
+     padding-right: .6em;
+     margin-right: .6em;
+ }
+
+ footer .site-map a+a+a+a+a+a+a+a {
+     border: none;
+     width: 3%;
+ }
+
+ 
